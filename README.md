@@ -23,10 +23,11 @@ This repo contains the following structure:
 
 The following shows a partial example of the data stored in **dataset.csv** that is used as the main example.
 
-| **labels**  | **images** |
-| stain | data/images/stain/1.jpg |
-| stain | data/images/stain/2.jpg |
-| defect_free | data/images/defect_free/1.jpg  |
+| **labels**  | **images**                    |
+|-------------|-------------------------------|
+| stain       | data/images/stain/1.jpg       |
+| stain       | data/images/stain/2.jpg       |
+| defect_free | data/images/defect_free/1.jpg |
 | defect_free | data/images/defect_free/2.jpg |
 
 
