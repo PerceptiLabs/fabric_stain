@@ -4,24 +4,24 @@
   </a>
 </p>
 
-# Fabric stain defect classification in textile quality control
+# Fabric Stain Defect Classification in Textile Quality Control
 
-This dataset<sup>1</sup> contains images of fabric stain defect classification in textile quality control.
+This dataset<sup>1</sup> contains images depicting *normal* and *stained* fabrics for defect classification in textile quality control.
 
-The data can be used to build and train an ML model that can classify a picture of textile to detect if it has or not stain.
+The data can be used to build and train an ML model that uses image recognition to classify whether or not a picture of a textile depicts stain defects.
 
 # Structure
 
 This repo contains the following structure:
 
-- **data**: contains the images directories.
-- **dataset.csv**: CSV file with all required data.
+- **data/images**: contains **defect_free** and **stain** sub directories, each containing their respective images.  
+- **dataset.csv**: CSV file that maps classification labels to images.
 
 <p align="center">
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in **dataset.csv** that is used as the main example.
+The following shows a partial example of the data stored in **dataset.csv**:
 
 | **labels**  | **images**                    |
 |-------------|-------------------------------|
@@ -30,11 +30,10 @@ The following shows a partial example of the data stored in **dataset.csv** that
 | defect_free | data/images/defect_free/1.jpg |
 | defect_free | data/images/defect_free/2.jpg |
 
+The labels used in the CSV are:
 
-The labels on CSV are:
-
-- **stain**: stain image in textile picture
-- **defect_free**: non stain in image
+- **stain**: stained textile is depicted in the image
+- **defect_free**: non-stained textile depicted in the image
 
 # Community
 
